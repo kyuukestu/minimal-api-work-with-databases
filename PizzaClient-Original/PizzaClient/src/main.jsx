@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-import Pizza from './Pizza';
+import Pizza from './Pizza'
 
-ReactDOM.createRoot(document.getElementbyId('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Pizza />
   </React.StrictMode>,
